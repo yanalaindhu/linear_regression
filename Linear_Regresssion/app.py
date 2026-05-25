@@ -18,7 +18,7 @@ st.write("Linear regression model")
 #3.load data
 @st.cache_data
 def load_data():
-    return pd.read_csv("Linear_Regression/insurance.csv")
+    return pd.read_csv("Linear_Regresssion/insurance.csv")
 df=load_data()
 st.subheader("dataset preview")
 st.dataframe(df.head())
